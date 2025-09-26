@@ -52,7 +52,7 @@ npm run dev
 yarn dev
 ```
 
-A aplicação estará disponível em [http://localhost:5173](http://localhost:5173).
+A aplicação estará disponível em [http://localhost:8080](http://localhost:8080).
 
 ---
 
@@ -60,9 +60,7 @@ A aplicação estará disponível em [http://localhost:5173](http://localhost:51
 
 - ✅ Listagem de tarefas em tabela componentizada
 - 📝 Criação, edição e exclusão de tarefas (integração com API)
-- 🎯 Filtros e ordenação de tarefas
 - 📅 Controle de prazos com **date-fns**
-- 🌗 Tema claro/escuro com persistência
 - ⚡ Feedback visual com toasts
 
 ---
