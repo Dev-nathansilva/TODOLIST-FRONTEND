@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Task, CreateTaskData, UpdateTaskData } from "@/types/todo";
 
-const BASE_URL = import.meta.env.API_BASE_URL as string;
+const BASE_URL = import.meta.env.VITE_API_BASE_URL as string;
 
 const api = axios.create({
   baseURL: BASE_URL,
