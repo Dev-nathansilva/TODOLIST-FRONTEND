@@ -14,7 +14,7 @@ Interface web do **ToDo List** construída com **React (Vite + TypeScript)**, es
 - **Framework:** React 18 (com Vite + TypeScript)
 - **UI:** TailwindCSS, Radix UI, shadcn/ui, Lucide Icons
 - **Gerenciamento de dados:** TanStack React Query, Axios
-- **Formulários:** React Hook Form, Zod
+- **Formulários:** React Hook Form
 - **Roteamento:** React Router DOM
 - **Notificações:** Sonner (toast)
 - **Controle de temas:** Next Themes
@@ -86,23 +86,6 @@ src/
 ## 📡 Integração com a API
 
 Este frontend se conecta à API descrita em [ToDo List API](../backend/README.md).  
-Exemplo de chamada usando Axios + React Query:
-
-```ts
-import { useQuery } from "@tanstack/react-query";
-import api from "@/services/api";
-
-export function useTasks() {
-  return useQuery({
-    queryKey: ["tasks"],
-    queryFn: async () => {
-      const { data } = await api.get("/tasks");
-      return data;
-    },
-  });
-}
-```
-
 ---
 
 ## 📄 Licença
