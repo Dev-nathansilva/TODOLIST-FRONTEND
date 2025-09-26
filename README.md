@@ -85,7 +85,7 @@ src/
 
 ## 📡 Integração com a API
 
-Este frontend se conecta à API descrita em [ToDo List API](../backend/README.md).  
+Este frontend se conecta à API descrita em [ToDo List API](https://github.com/Dev-nathansilva/TODOLIST-BACKEND).  
 ---
 
 ## 📄 Licença
